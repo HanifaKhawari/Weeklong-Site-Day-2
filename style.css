@@ -1,0 +1,93 @@
+body {
+    background-image: url("selective-focus-photography-of-white-petaled-flowers-1035342.jpg");
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: black;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    border: 1px solid black;
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    padding: 5px;
+}
+
+.header-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.header {
+    display: inline-block;
+    height: 150px;
+    width: 900px;
+}
+
+.article-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    font-size: 12px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.article-item {
+    border: 1px solid white;
+    height: 500px;
+    width: 250px;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-item {
+    border: 1px solid black;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
